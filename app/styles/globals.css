@@ -126,3 +126,15 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
+.footer {
+  text-align: center;
+  padding: 10px;
+  color: #8f91a8;
+  background-color: rgba(248, 249, 250, 0.5);
+  /* 透明度为 0.7 */
+  margin-top: auto;
+  /* 确保底部始终位于页面底部 */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
